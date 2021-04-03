@@ -8,7 +8,7 @@
 y_test = np.array([0, 0, 0, 1, 1, 1, 1, 0])
 y_pred = np.array([0, 1, 1, 1, 0, 1, 0, 1])
 
-explain_binary_classification(y_pred, y_test, 'fraud') # 'fraud' represents positive/1 case
+explain_binary_results(y_pred, y_test, 'fraud') # 'fraud' represents positive/1 case
 ```
 
 ### Output
