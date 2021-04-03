@@ -13,7 +13,7 @@ explain_binary_classification(y_pred, y_test, 'fraud')
 
 ### Output
 
-```python
+```
                  Predicted      
                  not fraud fraud
 Actual not fraud         1     3
