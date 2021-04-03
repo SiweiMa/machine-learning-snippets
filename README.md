@@ -1,6 +1,6 @@
-# machine-learning-snippets
+# machine learning code snippets
 
-## explain_binary_results
+## explain_binary_results.py
 
 ### Usage
 
