@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 
 
-def explain_binary_classification(y_pred, y_test, positive):
+def explain_binary_results(y_pred, y_test, positive):
     """
     y_pred, y_test are np.array and positive is the string representing the positive/1 case
     calculate the metrics, such as precision, accuracy with explanation
@@ -65,4 +65,4 @@ def explain_binary_classification(y_pred, y_test, positive):
 
 # y_test = np.array([0, 0, 0, 1, 1, 1, 1, 1])
 # y_pred = np.array([0, 1, 1, 1, 0, 1, 0, 1])
-# explain_binary_classification(y_pred, y_test, 'fraud')
+# explain_binary_results(y_pred, y_test, 'fraud')
